@@ -16,7 +16,7 @@ h1, h2, h3,
 }
 
 #hero {
-  padding: 20px 0 40px;
+  padding: 0 0 40px;
 }
 
 /* TOP BAR */
@@ -96,6 +96,7 @@ h1, h2, h3,
 #second {
   background: #5ea985;
   padding: 40px;
+  justify-content: center;
 }
 
 .second-content {
@@ -105,18 +106,12 @@ h1, h2, h3,
 }
 
 .second-text {
-  flex: 1;
+  flex: 0 1 auto;
+  max-width: 400px; /* ajusta a tu gusto */
 }
 
 .second-img-wrap {
   flex: 1;
-}
-
-.second-tag {
-  font-size: 0.7rem;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: #446594;
 }
 
 .second-img {
