@@ -1,7 +1,5 @@
-/* ↓ FUENTES NUEVAS ↓ */
 @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Protest+Riot&display=swap');
 
-/* RESET + FUENTE GLOBAL */
 body {
   background-color: #e0e2c3;
   margin: 0;
@@ -9,7 +7,6 @@ body {
   font-family: 'Fuzzy Bubbles', sans-serif;
 }
 
-/* TITULARES / ELEMENTOS DESTACADOS */
 h1, h2, h3,
 .nav-logo {
   font-family: 'Protest Riot', sans-serif;
@@ -19,7 +16,6 @@ h1, h2, h3,
   padding: 0 0 40px;
 }
 
-/* TOP BAR */
 
 .top-bar {
   background-color: #5ea985;
@@ -38,7 +34,6 @@ h1, h2, h3,
   color: #000000;
 }
 
-/* SCROLL HORIZONTAL */
 
 .scroll-section {
   display: flex;
@@ -50,7 +45,6 @@ h1, h2, h3,
   scroll-behavior: smooth;
 }
 
-/* ITEMS */
 
 .scroll-item {
   min-width: 250px;
@@ -69,14 +63,12 @@ h1, h2, h3,
   color: #000000;
 }
 
-/* HUELLAS */
 
 .footsteps {
   font-size: 30px;
   opacity: 0.6;
 }
 
-/* SCROLL BAR */
 
 .scroll-section::-webkit-scrollbar {
   height: 6px;
@@ -91,7 +83,6 @@ h1, h2, h3,
   border-radius: 10px;
 }
 
-/* SECOND SECTION */
 
 #second {
   background: #5ea985;
@@ -121,7 +112,6 @@ h1, h2, h3,
   display: block;
 }
 
-/* THIRD SECTION */
 
 #third {
   background: #e0e2c3;
@@ -157,14 +147,12 @@ h1, h2, h3,
   font-size: 1.1rem;
 }
 
-/* FOURTH SECTION */
 
 #fourth {
   background: #7a8cc7;
   padding: 60px 0;
 }
 
-/* contenedor con scroll */
 .river {
   overflow-x: auto;
   overflow-y: hidden;
@@ -172,14 +160,12 @@ h1, h2, h3,
   padding: 20px 0;
 }
 
-/* “corriente” del río */
 .river-track {
   display: inline-flex;
   gap: 60px;
   padding: 0 40px;
 }
 
-/* elementos flotando */
 .river-item {
   min-width: 200px;
   padding: 20px;
@@ -196,12 +182,10 @@ h1, h2, h3,
   transform: rotate(2deg);
 }
 
-/* ocultar scrollbar */
 .river::-webkit-scrollbar {
   display: none;
 }
 
-/* flecha animada */
 .scroll-hint {
   text-align: center;
   font-size: 2rem;
@@ -210,7 +194,6 @@ h1, h2, h3,
   animation: moveArrow 1.5s infinite;
 }
 
-/* animación */
 @keyframes moveArrow {
   0% { transform: translateX(0); }
   50% { transform: translateX(10px); }
